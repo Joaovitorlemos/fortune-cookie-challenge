@@ -8,29 +8,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biscoito da sorte</title>
 
+  <link rel="shortcut icon" href="./images/icon-cookie.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Dancing+Script&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
   <main>
 
-    <div class="screen1 hide">
+    <div class="screen1 ">
        <h1>Qual é a sua sorte <br> de hoje?</h1>
       
-      <p>Abra o ciscoito e descubra!</p>
+        <p>Abra o ciscoito e descubra!</p>
 
-      <button>
+        <button id="btnOpenCookie">
         <img class="fortune-cookie" src="images/cookie1.png" alt="Imagem do biscoito da sorte"/>
       </button>
-
     </div>
 
-    <div class="screen2 ">
+    <div class="screen2 hide">
 
       <h2>Aqui está a sua sorte de hoje:</h2>
 
       <div class="message-cookie">
-        <p>
+        <p id="messageText">
           Se alguém está tão cansado que não possa te dar um sorriso,
           deixa-lhe o teu.
         </p>
@@ -39,11 +39,11 @@
       <img class="open-cookie" src="images/cookie2.png" alt="Imagem do biscoito da sorte aberto">
 
       <div class="button-screen2">
-        <button>Abrir outro biscoito</button>
+        <button id="btnCookieReset">Abrir outro biscoito</button>
       </div>
-
     </div>
 
   </main>
+  <script src="./main.js"></script>
 </body>
 </html>

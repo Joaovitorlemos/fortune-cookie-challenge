@@ -146,7 +146,7 @@ h2 {
   0% {
     transform: translateY(15rem) scale(0.2);
   }
-
+  
   100% {
     transform: translateY(0) scale(1);
   }
