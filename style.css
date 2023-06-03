@@ -65,7 +65,6 @@ p {
 
 .screen1 button:hover {
   animation: tremer .4s infinite;
-
 }
 
 /* Screen2 */
@@ -125,7 +124,6 @@ h2 {
 }
 
 /* Keyframes */
-
 @keyframes tremer {
   0% {
     transform: translate(0, 0);
