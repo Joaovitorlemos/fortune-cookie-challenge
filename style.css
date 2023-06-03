@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  width: min(42.4rem, 90%);
+  background: #FFFFFF;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+  border-radius: .5rem;
+  margin-top: -12rem;
+  text-align: center;
+}
+
+/* Screen1 */
+.title {
+  width: 25.85rem;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 4.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #34355B;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #34355B;
+  margin: 1.4rem 0 2rem;
+}
+
+.fortune-cookie {
+  padding-bottom: 6.4rem;
+}
+
+/* Screen2 */
+.screen2 {
+  padding: 0 6.75rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #34355B;
+  margin-top: 4.2rem;
+}
+
+.message-cookie {
+  width: 29.3rem;
+  background: #E4EDF1;
+  box-shadow: .2rem .2rem .2rem rgba(85, 85, 85, 0.5);
+  margin: 1.7rem 0 6rem;
+}
+
+.message-cookie p {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #000000;
+}
+
+.open-cookie {
+  padding-bottom: 6rem;
+}
+
+.button-screen2 {
+  margin-bottom: 6rem;
+}
+
+button {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  border: none;
+  background: #FF9500;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 1.6rem;
+}
